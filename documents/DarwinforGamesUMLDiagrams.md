@@ -10,7 +10,7 @@ title DarwinforGames : Get game_item(Unit,Material) Information Sequence
 
 actor User
 
-User -> WebServer : Request an game_item
+User -> WebServer : Request a game_item
 
 note left:Get /{GameItems}/{Id}[.json]
 
